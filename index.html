@@ -7,8 +7,20 @@
     <title>HTML for dummers!</title>
   </head>
   <body>
+    <!-- Шапка сторінки -->
+    <header>
+      <a href="images/GoIt_logo.png">Логотип сайту</a>
+      <nav>
+        <!-- Навігація на інші сторінки -->
+        <ul>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <h1>HTML for dummers! part 1</h1>
-    <section>Секція</section>
     <!--
   Коментар може бути багаторядковим.
    Це зручно для об'ємніших описів.
@@ -33,7 +45,7 @@
 
     <input type="text" name="user_name" />
     <button type="submit">click me</button>
-    <p class="text">...</p>
+    <a class="text">...</a>
     <button>Батон</button>
 
     <p>
@@ -68,14 +80,6 @@
           <li>Пральні машини</li>
         </ul>
       </li>
-      <li>
-        Товари для дому
-        <ul>
-          <li>Крісла</li>
-          <li>Матраци</li>
-          <li>Електрокаміни</li>
-        </ul>
-      </li>
     </ul>
 
     <!-- Посилання на зовнішній ресурс -->
@@ -89,5 +93,11 @@
 
     <!-- Посилання на адресу електронної пошти  -->
     <a href="mailto:example@mail.ua">example@mail.ua</a>
+
+    <figure>
+      <!-- Довільний графічний контент: фотографія, графік, діаграма тощо -->
+      <img src="images/GoIt_logo.png" alt="логотип школи" />
+      <figcaption>Текст пояснення, який буде під зображенням</figcaption>
+    </figure>
   </body>
 </html>

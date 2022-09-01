@@ -40,6 +40,7 @@
       <img
         src="https://picsum.photos/640/480"
         alt="Довільна картинка від генератора"
+        width="320"
       />
     </p>
 
@@ -90,7 +91,6 @@
     >
     <!-- Посилання на телефонний номер -->
     <a href="tel:+14251234563">+1 (425) 123-45-63</a>
-
     <!-- Посилання на адресу електронної пошти  -->
     <a href="mailto:example@mail.ua">example@mail.ua</a>
 
@@ -99,5 +99,64 @@
       <img src="images/GoIt_logo.png" alt="логотип школи" />
       <figcaption>Текст пояснення, який буде під зображенням</figcaption>
     </figure>
+
+    <!-- Таблиця -->
+    <table>
+      <caption>
+        Розклад потягів
+      </caption>
+      <thead>
+        <tr>
+          <th>Номер</th>
+          <th>Маршрут</th>
+          <th>Час у дорозі</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>433</td>
+          <td>Київ - Ковель</td>
+          <td>5 годин</td>
+        </tr>
+        <tr>
+          <td>701</td>
+          <td>Харків - Дніпро</td>
+          <td>7 годин</td>
+        </tr>
+        <tr>
+          <td>258</td>
+          <td>Львів - Одеса</td>
+          <td>4 годин</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Використання тегу span дрібного "сірого" тексту* -->
+    <p>
+      Тег <span class="accent">span</span> - це універсальний контейнер для
+      дрібного текстового контенту.
+    </p>
+    <!-- Символьні підстановки -->
+    <p>
+      Для напівжирного тексту, виділіть його тегами &lt;strong&gt; і
+      &lt;/strong&gt;.
+    </p>
+    <!-- VIDEO AUDIO tags -->
+    <video
+      src="http://techslides.com/demos/sample-videos/small.webm"
+      poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=320"
+      width="320"
+      controls
+      loop
+      preload="metadata"
+    >
+      Your browser does not support the <code>video</code> element.
+    </video>
+    <audio controls preload="none">
+      <source
+        src="https://goit.ua/autocheck/bensound-summer.mp3"
+        type="audio/mp3"
+      />
+    </audio>
   </body>
 </html>
